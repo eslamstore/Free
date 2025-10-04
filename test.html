@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>متجر إسلام ستور</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      min-width: 100vw;
+      position: relative;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #010725, #1e3c78, #00c3ff);
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .image-box img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+
+    .text-box {
+      color: white;
+      max-width: 400px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .title {
+      background-color: rgb(235, 98, 19);
+      border-radius: 10px;
+      padding: 10px 20px;
+      font-size: 24px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .description {
+      font-size: 18px;
+      line-height: 1.7;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .text-box {
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="image-box">
+      <img src="./islam11.png" alt="صورة 1">
+    </div>
+
+    <div class="image-box">
+      <img src="./islam22.png" alt="صورة 2">
+    </div>
+
+    <div class="text-box">
+      <div class="title">متجر إسلام ستور</div>
+      <div class="description">
+        نحن متخصصون في تعديل ألعاب البلايستيشن وملحقاتها.<br>
+        جربنا ولن تندم، الجودة والضمان أساس شغلنا!<br><br>
+        🔥🔥 أصلنا وأكيد معانا تتعزّا 🔥🔥<br><br>
+        للتواصل:<br>
+        <strong>0100133550</strong>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
